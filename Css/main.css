@@ -1,0 +1,94 @@
+.panel1
+{
+	background: url("../Images/im.jpg")no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+}
+body
+{
+	margin: 0px;
+}
+.panels
+{
+	float: left;
+}
+.panel p
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1 0 auto;
+	width: 100%;
+	margin-bottom: 0;
+	transition: transform 0.5s;
+
+}
+.panel.open 
+{
+	flex: 3;
+	font-size: 60px;
+}
+.panel2
+{
+	background: url("../Images/header.jpg")no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+}
+.panel3
+{
+	background: url("../Images/imag.jpg")no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+}
+.panel4
+{
+	background: url("../Images/magazine.jpg")no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+}
+.panel5
+{
+	background: url("../Images/bgimg.jpg")no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+}
+.panel
+{
+	width: 100%;
+	color: white;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	flex-direction: column;
+	transition: 
+		font-size 0.7s cubic-bezier(0.61,-0.19,0.7,-0.11),
+		flex 0.7s cubic-bezier(0.61,-0.19,0.7,-0.11),
+		background 0.2s;
+}
+.panel p:first-child
+{
+	transform: translateY(-100%);
+}
+.panel_openactive p:first-child
+{
+	transform: translateY(0%);
+}
+.panel p:last-child
+{
+	transform: translateY(100%);
+}
+.panel_openactive p:last-child
+{
+	transform: translateY(0%);
+}
+.panels
+{
+	display: flex;
+	width: 100%;
+	flex:1;
+	justify-content: center;
+	align-items: center;
+
+}
